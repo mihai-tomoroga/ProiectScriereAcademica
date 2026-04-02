@@ -1,0 +1,431 @@
+Algoritm,Tip Lista,Dimensiune,Timp(s)
+Bubble Sort,Aleatoare,10,0.000008
+Insertion Sort,Aleatoare,10,0.000005
+Selection Sort,Aleatoare,10,0.000006
+Merge Sort,Aleatoare,10,0.000015
+Quick Sort,Aleatoare,10,0.000009
+Radix Sort,Aleatoare,10,0.000037
+Bubble Sort,Aleatoare,50,0.000160
+Insertion Sort,Aleatoare,50,0.000088
+Selection Sort,Aleatoare,50,0.000092
+Merge Sort,Aleatoare,50,0.000130
+Quick Sort,Aleatoare,50,0.000093
+Radix Sort,Aleatoare,50,0.000127
+Bubble Sort,Aleatoare,100,0.000598
+Insertion Sort,Aleatoare,100,0.000281
+Selection Sort,Aleatoare,100,0.000274
+Merge Sort,Aleatoare,100,0.000229
+Quick Sort,Aleatoare,100,0.000162
+Radix Sort,Aleatoare,100,0.000205
+Bubble Sort,Aleatoare,1000,0.065881
+Insertion Sort,Aleatoare,1000,0.030162
+Selection Sort,Aleatoare,1000,0.029095
+Merge Sort,Aleatoare,1000,0.003567
+Quick Sort,Aleatoare,1000,0.002483
+Radix Sort,Aleatoare,1000,0.002196
+Bubble Sort,Aleatoare,5000,1.833499
+Insertion Sort,Aleatoare,5000,0.795551
+Selection Sort,Aleatoare,5000,0.757893
+Merge Sort,Aleatoare,5000,0.024043
+Quick Sort,Aleatoare,5000,0.015546
+Radix Sort,Aleatoare,5000,0.010408
+Bubble Sort,Aleatoare,15000,13.570551
+Insertion Sort,Aleatoare,15000,5.905136
+Selection Sort,Aleatoare,15000,5.841536
+Merge Sort,Aleatoare,15000,0.053248
+Quick Sort,Aleatoare,15000,0.041386
+Radix Sort,Aleatoare,15000,0.021949
+Merge Sort,Aleatoare,50000,0.202321
+Quick Sort,Aleatoare,50000,0.136071
+Radix Sort,Aleatoare,50000,0.111647
+Merge Sort,Aleatoare,100000,0.429762
+Quick Sort,Aleatoare,100000,0.289859
+Radix Sort,Aleatoare,100000,0.335602
+Merge Sort,Aleatoare,1000000,6.060699
+Quick Sort,Aleatoare,1000000,5.336984
+Radix Sort,Aleatoare,1000000,3.164592
+Merge Sort,Aleatoare,10000000,72.961556
+Quick Sort,Aleatoare,10000000,68.641584
+Radix Sort,Aleatoare,10000000,35.267170
+Bubble Sort,Sortata,10,0.000002
+Insertion Sort,Sortata,10,0.000003
+Selection Sort,Sortata,10,0.000005
+Merge Sort,Sortata,10,0.000015
+Quick Sort,Sortata,10,0.000012
+Radix Sort,Sortata,10,0.000006
+Bubble Sort,Sortata,50,0.000004
+Insertion Sort,Sortata,50,0.000005
+Selection Sort,Sortata,50,0.000059
+Merge Sort,Sortata,50,0.000078
+Quick Sort,Sortata,50,0.000044
+Radix Sort,Sortata,50,0.000029
+Bubble Sort,Sortata,100,0.000010
+Insertion Sort,Sortata,100,0.000012
+Selection Sort,Sortata,100,0.000235
+Merge Sort,Sortata,100,0.000186
+Quick Sort,Sortata,100,0.000124
+Radix Sort,Sortata,100,0.000070
+Bubble Sort,Sortata,1000,0.000122
+Insertion Sort,Sortata,1000,0.000206
+Selection Sort,Sortata,1000,0.029534
+Merge Sort,Sortata,1000,0.002652
+Quick Sort,Sortata,1000,0.001705
+Radix Sort,Sortata,1000,0.001683
+Bubble Sort,Sortata,5000,0.000435
+Insertion Sort,Sortata,5000,0.000744
+Selection Sort,Sortata,5000,0.574881
+Merge Sort,Sortata,5000,0.013070
+Quick Sort,Sortata,5000,0.009418
+Radix Sort,Sortata,5000,0.008407
+Bubble Sort,Sortata,15000,0.001701
+Insertion Sort,Sortata,15000,0.002540
+Selection Sort,Sortata,15000,5.598203
+Merge Sort,Sortata,15000,0.043870
+Quick Sort,Sortata,15000,0.023262
+Radix Sort,Sortata,15000,0.027560
+Merge Sort,Sortata,50000,0.129097
+Quick Sort,Sortata,50000,0.092772
+Radix Sort,Sortata,50000,0.194491
+Merge Sort,Sortata,100000,0.253937
+Quick Sort,Sortata,100000,0.186371
+Radix Sort,Sortata,100000,0.175858
+Merge Sort,Sortata,1000000,3.359361
+Quick Sort,Sortata,1000000,2.351991
+Radix Sort,Sortata,1000000,2.607480
+Merge Sort,Sortata,10000000,34.462833
+Quick Sort,Sortata,10000000,26.296764
+Radix Sort,Sortata,10000000,30.406894
+Bubble Sort,Invers Sortata,10,0.000009
+Insertion Sort,Invers Sortata,10,0.000006
+Selection Sort,Invers Sortata,10,0.000005
+Merge Sort,Invers Sortata,10,0.000012
+Quick Sort,Invers Sortata,10,0.000007
+Radix Sort,Invers Sortata,10,0.000010
+Bubble Sort,Invers Sortata,50,0.000158
+Insertion Sort,Invers Sortata,50,0.000114
+Selection Sort,Invers Sortata,50,0.000071
+Merge Sort,Invers Sortata,50,0.000102
+Quick Sort,Invers Sortata,50,0.000039
+Radix Sort,Invers Sortata,50,0.000052
+Bubble Sort,Invers Sortata,100,0.000601
+Insertion Sort,Invers Sortata,100,0.000432
+Selection Sort,Invers Sortata,100,0.000230
+Merge Sort,Invers Sortata,100,0.000177
+Quick Sort,Invers Sortata,100,0.000099
+Radix Sort,Invers Sortata,100,0.000083
+Bubble Sort,Invers Sortata,1000,0.073176
+Insertion Sort,Invers Sortata,1000,0.046799
+Selection Sort,Invers Sortata,1000,0.024038
+Merge Sort,Invers Sortata,1000,0.003672
+Quick Sort,Invers Sortata,1000,0.001718
+Radix Sort,Invers Sortata,1000,0.001289
+Bubble Sort,Invers Sortata,5000,2.165954
+Insertion Sort,Invers Sortata,5000,1.245352
+Selection Sort,Invers Sortata,5000,0.637887
+Merge Sort,Invers Sortata,5000,0.010467
+Quick Sort,Invers Sortata,5000,0.007938
+Radix Sort,Invers Sortata,5000,0.006353
+Bubble Sort,Invers Sortata,15000,16.242659
+Insertion Sort,Invers Sortata,15000,10.918628
+Selection Sort,Invers Sortata,15000,5.406931
+Merge Sort,Invers Sortata,15000,0.037242
+Quick Sort,Invers Sortata,15000,0.024563
+Radix Sort,Invers Sortata,15000,0.026191
+Merge Sort,Invers Sortata,50000,0.132788
+Quick Sort,Invers Sortata,50000,0.092779
+Radix Sort,Invers Sortata,50000,0.089587
+Merge Sort,Invers Sortata,100000,0.265063
+Quick Sort,Invers Sortata,100000,0.195890
+Radix Sort,Invers Sortata,100000,0.216249
+Merge Sort,Invers Sortata,1000000,3.247074
+Quick Sort,Invers Sortata,1000000,2.578100
+Radix Sort,Invers Sortata,1000000,3.021338
+Merge Sort,Invers Sortata,10000000,38.098034
+Quick Sort,Invers Sortata,10000000,26.841108
+Radix Sort,Invers Sortata,10000000,31.667808
+Bubble Sort,Aproape sortata,10,0.000003
+Insertion Sort,Aproape sortata,10,0.000005
+Selection Sort,Aproape sortata,10,0.000004
+Merge Sort,Aproape sortata,10,0.000012
+Quick Sort,Aproape sortata,10,0.000007
+Radix Sort,Aproape sortata,10,0.000006
+Bubble Sort,Aproape sortata,50,0.000071
+Insertion Sort,Aproape sortata,50,0.000031
+Selection Sort,Aproape sortata,50,0.000055
+Merge Sort,Aproape sortata,50,0.000073
+Quick Sort,Aproape sortata,50,0.000041
+Radix Sort,Aproape sortata,50,0.000027
+Bubble Sort,Aproape sortata,100,0.000280
+Insertion Sort,Aproape sortata,100,0.000058
+Selection Sort,Aproape sortata,100,0.000217
+Merge Sort,Aproape sortata,100,0.000161
+Quick Sort,Aproape sortata,100,0.000097
+Radix Sort,Aproape sortata,100,0.000051
+Bubble Sort,Aproape sortata,1000,0.034767
+Insertion Sort,Aproape sortata,1000,0.005403
+Selection Sort,Aproape sortata,1000,0.022819
+Merge Sort,Aproape sortata,1000,0.004828
+Quick Sort,Aproape sortata,1000,0.001278
+Radix Sort,Aproape sortata,1000,0.000826
+Bubble Sort,Aproape sortata,5000,0.938591
+Insertion Sort,Aproape sortata,5000,0.152646
+Selection Sort,Aproape sortata,5000,0.539785
+Merge Sort,Aproape sortata,5000,0.015908
+Quick Sort,Aproape sortata,5000,0.008901
+Radix Sort,Aproape sortata,5000,0.008128
+Bubble Sort,Aproape sortata,15000,8.138925
+Insertion Sort,Aproape sortata,15000,1.290983
+Selection Sort,Aproape sortata,15000,5.013376
+Merge Sort,Aproape sortata,15000,0.049152
+Quick Sort,Aproape sortata,15000,0.031150
+Radix Sort,Aproape sortata,15000,0.026876
+Merge Sort,Aproape sortata,50000,0.174503
+Quick Sort,Aproape sortata,50000,0.103764
+Radix Sort,Aproape sortata,50000,0.090857
+Merge Sort,Aproape sortata,100000,0.385543
+Quick Sort,Aproape sortata,100000,0.229062
+Radix Sort,Aproape sortata,100000,0.178941
+Merge Sort,Aproape sortata,1000000,4.721650
+Quick Sort,Aproape sortata,1000000,2.692091
+Radix Sort,Aproape sortata,1000000,2.530199
+Merge Sort,Aproape sortata,10000000,59.584469
+Quick Sort,Aproape sortata,10000000,32.800651
+Radix Sort,Aproape sortata,10000000,30.804069
+Bubble Sort,Plata,10,0.000005
+Insertion Sort,Plata,10,0.000005
+Selection Sort,Plata,10,0.000008
+Merge Sort,Plata,10,0.000012
+Quick Sort,Plata,10,0.000009
+Radix Sort,Plata,10,0.000007
+Bubble Sort,Plata,50,0.000117
+Insertion Sort,Plata,50,0.000046
+Selection Sort,Plata,50,0.000076
+Merge Sort,Plata,50,0.000079
+Quick Sort,Plata,50,0.000023
+Radix Sort,Plata,50,0.000016
+Bubble Sort,Plata,100,0.000464
+Insertion Sort,Plata,100,0.000184
+Selection Sort,Plata,100,0.000253
+Merge Sort,Plata,100,0.000189
+Quick Sort,Plata,100,0.000038
+Radix Sort,Plata,100,0.000031
+Bubble Sort,Plata,1000,0.051488
+Insertion Sort,Plata,1000,0.019451
+Selection Sort,Plata,1000,0.022624
+Merge Sort,Plata,1000,0.002913
+Quick Sort,Plata,1000,0.000280
+Radix Sort,Plata,1000,0.000295
+Bubble Sort,Plata,5000,1.240865
+Insertion Sort,Plata,5000,0.505389
+Selection Sort,Plata,5000,0.575431
+Merge Sort,Plata,5000,0.014862
+Quick Sort,Plata,5000,0.001760
+Radix Sort,Plata,5000,0.001434
+Bubble Sort,Plata,15000,10.721872
+Insertion Sort,Plata,15000,4.493077
+Selection Sort,Plata,15000,5.243103
+Merge Sort,Plata,15000,0.052576
+Quick Sort,Plata,15000,0.003303
+Radix Sort,Plata,15000,0.004601
+Merge Sort,Plata,50000,0.166306
+Quick Sort,Plata,50000,0.014271
+Radix Sort,Plata,50000,0.018066
+Merge Sort,Plata,100000,0.339724
+Quick Sort,Plata,100000,0.024242
+Radix Sort,Plata,100000,0.032025
+Merge Sort,Plata,1000000,4.019748
+Quick Sort,Plata,1000000,0.284187
+Radix Sort,Plata,1000000,0.302987
+Merge Sort,Plata,10000000,47.915985
+Quick Sort,Plata,10000000,2.887990
+Radix Sort,Plata,10000000,3.041387
+Bubble Sort,Aleatoare Float,10,0.000006
+Insertion Sort,Aleatoare Float,10,0.000005
+Selection Sort,Aleatoare Float,10,0.000005
+Merge Sort,Aleatoare Float,10,0.000016
+Quick Sort,Aleatoare Float,10,0.000007
+Bubble Sort,Aleatoare Float,50,0.000140
+Insertion Sort,Aleatoare Float,50,0.000054
+Selection Sort,Aleatoare Float,50,0.000074
+Merge Sort,Aleatoare Float,50,0.000077
+Quick Sort,Aleatoare Float,50,0.000063
+Bubble Sort,Aleatoare Float,100,0.000469
+Insertion Sort,Aleatoare Float,100,0.000233
+Selection Sort,Aleatoare Float,100,0.000219
+Merge Sort,Aleatoare Float,100,0.000187
+Quick Sort,Aleatoare Float,100,0.000138
+Bubble Sort,Aleatoare Float,1000,0.051762
+Insertion Sort,Aleatoare Float,1000,0.023876
+Selection Sort,Aleatoare Float,1000,0.022220
+Merge Sort,Aleatoare Float,1000,0.002248
+Quick Sort,Aleatoare Float,1000,0.003575
+Bubble Sort,Aleatoare Float,5000,1.331598
+Insertion Sort,Aleatoare Float,5000,0.657821
+Selection Sort,Aleatoare Float,5000,0.526559
+Merge Sort,Aleatoare Float,5000,0.015765
+Quick Sort,Aleatoare Float,5000,0.012033
+Bubble Sort,Aleatoare Float,15000,12.078959
+Insertion Sort,Aleatoare Float,15000,5.976661
+Selection Sort,Aleatoare Float,15000,4.887280
+Merge Sort,Aleatoare Float,15000,0.060576
+Quick Sort,Aleatoare Float,15000,0.033579
+Merge Sort,Aleatoare Float,50000,0.191946
+Quick Sort,Aleatoare Float,50000,0.131844
+Merge Sort,Aleatoare Float,100000,0.385804
+Quick Sort,Aleatoare Float,100000,0.298710
+Merge Sort,Aleatoare Float,1000000,5.306807
+Quick Sort,Aleatoare Float,1000000,5.523753
+Merge Sort,Aleatoare Float,10000000,76.335064
+Quick Sort,Aleatoare Float,10000000,71.854097
+Bubble Sort,Sortata Float,10,0.000001
+Insertion Sort,Sortata Float,10,0.000001
+Selection Sort,Sortata Float,10,0.000005
+Merge Sort,Sortata Float,10,0.000012
+Quick Sort,Sortata Float,10,0.000007
+Bubble Sort,Sortata Float,50,0.000003
+Insertion Sort,Sortata Float,50,0.000009
+Selection Sort,Sortata Float,50,0.000057
+Merge Sort,Sortata Float,50,0.000063
+Quick Sort,Sortata Float,50,0.000050
+Bubble Sort,Sortata Float,100,0.000006
+Insertion Sort,Sortata Float,100,0.000010
+Selection Sort,Sortata Float,100,0.000193
+Merge Sort,Sortata Float,100,0.000139
+Quick Sort,Sortata Float,100,0.000089
+Bubble Sort,Sortata Float,1000,0.000141
+Insertion Sort,Sortata Float,1000,0.000164
+Selection Sort,Sortata Float,1000,0.020710
+Merge Sort,Sortata Float,1000,0.003222
+Quick Sort,Sortata Float,1000,0.001037
+Bubble Sort,Sortata Float,5000,0.000530
+Insertion Sort,Sortata Float,5000,0.000872
+Selection Sort,Sortata Float,5000,0.524088
+Merge Sort,Sortata Float,5000,0.009612
+Quick Sort,Sortata Float,5000,0.006362
+Bubble Sort,Sortata Float,15000,0.001043
+Insertion Sort,Sortata Float,15000,0.001868
+Selection Sort,Sortata Float,15000,4.530748
+Merge Sort,Sortata Float,15000,0.036817
+Quick Sort,Sortata Float,15000,0.023399
+Merge Sort,Sortata Float,50000,0.122260
+Quick Sort,Sortata Float,50000,0.090049
+Merge Sort,Sortata Float,100000,0.248074
+Quick Sort,Sortata Float,100000,0.233336
+Merge Sort,Sortata Float,1000000,3.088711
+Quick Sort,Sortata Float,1000000,2.001524
+Merge Sort,Sortata Float,10000000,34.602811
+Quick Sort,Sortata Float,10000000,26.742994
+Bubble Sort,Invers Sortata Float,10,0.000008
+Insertion Sort,Invers Sortata Float,10,0.000005
+Selection Sort,Invers Sortata Float,10,0.000005
+Merge Sort,Invers Sortata Float,10,0.000011
+Quick Sort,Invers Sortata Float,10,0.000008
+Bubble Sort,Invers Sortata Float,50,0.000153
+Insertion Sort,Invers Sortata Float,50,0.000129
+Selection Sort,Invers Sortata Float,50,0.000057
+Merge Sort,Invers Sortata Float,50,0.000107
+Quick Sort,Invers Sortata Float,50,0.000043
+Bubble Sort,Invers Sortata Float,100,0.000624
+Insertion Sort,Invers Sortata Float,100,0.000463
+Selection Sort,Invers Sortata Float,100,0.000250
+Merge Sort,Invers Sortata Float,100,0.000153
+Quick Sort,Invers Sortata Float,100,0.000094
+Bubble Sort,Invers Sortata Float,1000,0.078413
+Insertion Sort,Invers Sortata Float,1000,0.054446
+Selection Sort,Invers Sortata Float,1000,0.032598
+Merge Sort,Invers Sortata Float,1000,0.002422
+Quick Sort,Invers Sortata Float,1000,0.001525
+Bubble Sort,Invers Sortata Float,5000,1.860467
+Insertion Sort,Invers Sortata Float,5000,1.244447
+Selection Sort,Invers Sortata Float,5000,0.584969
+Merge Sort,Invers Sortata Float,5000,0.010918
+Quick Sort,Invers Sortata Float,5000,0.009113
+Bubble Sort,Invers Sortata Float,15000,16.692492
+Insertion Sort,Invers Sortata Float,15000,11.175766
+Selection Sort,Invers Sortata Float,15000,5.213038
+Merge Sort,Invers Sortata Float,15000,0.038380
+Quick Sort,Invers Sortata Float,15000,0.021395
+Merge Sort,Invers Sortata Float,50000,0.135180
+Quick Sort,Invers Sortata Float,50000,0.090720
+Merge Sort,Invers Sortata Float,100000,0.263185
+Quick Sort,Invers Sortata Float,100000,0.186057
+Merge Sort,Invers Sortata Float,1000000,3.325311
+Quick Sort,Invers Sortata Float,1000000,2.159465
+Merge Sort,Invers Sortata Float,10000000,40.053344
+Quick Sort,Invers Sortata Float,10000000,26.505026
+Bubble Sort,Aproape sortata Float,10,0.000005
+Insertion Sort,Aproape sortata Float,10,0.000003
+Selection Sort,Aproape sortata Float,10,0.000004
+Merge Sort,Aproape sortata Float,10,0.000011
+Quick Sort,Aproape sortata Float,10,0.000006
+Bubble Sort,Aproape sortata Float,50,0.000076
+Insertion Sort,Aproape sortata Float,50,0.000017
+Selection Sort,Aproape sortata Float,50,0.000051
+Merge Sort,Aproape sortata Float,50,0.000090
+Quick Sort,Aproape sortata Float,50,0.000045
+Bubble Sort,Aproape sortata Float,100,0.000331
+Insertion Sort,Aproape sortata Float,100,0.000073
+Selection Sort,Aproape sortata Float,100,0.000207
+Merge Sort,Aproape sortata Float,100,0.000180
+Quick Sort,Aproape sortata Float,100,0.000092
+Bubble Sort,Aproape sortata Float,1000,0.034063
+Insertion Sort,Aproape sortata Float,1000,0.006979
+Selection Sort,Aproape sortata Float,1000,0.025110
+Merge Sort,Aproape sortata Float,1000,0.002925
+Quick Sort,Aproape sortata Float,1000,0.003148
+Bubble Sort,Aproape sortata Float,5000,0.887621
+Insertion Sort,Aproape sortata Float,5000,0.142458
+Selection Sort,Aproape sortata Float,5000,0.574782
+Merge Sort,Aproape sortata Float,5000,0.015440
+Quick Sort,Aproape sortata Float,5000,0.009604
+Bubble Sort,Aproape sortata Float,15000,8.746354
+Insertion Sort,Aproape sortata Float,15000,1.300014
+Selection Sort,Aproape sortata Float,15000,5.181257
+Merge Sort,Aproape sortata Float,15000,0.046973
+Quick Sort,Aproape sortata Float,15000,0.026279
+Merge Sort,Aproape sortata Float,50000,0.180408
+Quick Sort,Aproape sortata Float,50000,0.100537
+Merge Sort,Aproape sortata Float,100000,0.411692
+Quick Sort,Aproape sortata Float,100000,0.242936
+Merge Sort,Aproape sortata Float,1000000,5.274459
+Quick Sort,Aproape sortata Float,1000000,2.686920
+Merge Sort,Aproape sortata Float,10000000,65.225659
+Quick Sort,Aproape sortata Float,10000000,35.189869
+Bubble Sort,Plata Float,10,0.000005
+Insertion Sort,Plata Float,10,0.000003
+Selection Sort,Plata Float,10,0.000004
+Merge Sort,Plata Float,10,0.000012
+Quick Sort,Plata Float,10,0.000005
+Bubble Sort,Plata Float,50,0.000115
+Insertion Sort,Plata Float,50,0.000057
+Selection Sort,Plata Float,50,0.000052
+Merge Sort,Plata Float,50,0.000105
+Quick Sort,Plata Float,50,0.000026
+Bubble Sort,Plata Float,100,0.000383
+Insertion Sort,Plata Float,100,0.000194
+Selection Sort,Plata Float,100,0.000197
+Merge Sort,Plata Float,100,0.000169
+Quick Sort,Plata Float,100,0.000039
+Bubble Sort,Plata Float,1000,0.046762
+Insertion Sort,Plata Float,1000,0.019973
+Selection Sort,Plata Float,1000,0.020276
+Merge Sort,Plata Float,1000,0.003041
+Quick Sort,Plata Float,1000,0.000772
+Bubble Sort,Plata Float,5000,1.266402
+Insertion Sort,Plata Float,5000,0.522175
+Selection Sort,Plata Float,5000,0.542544
+Merge Sort,Plata Float,5000,0.017389
+Quick Sort,Plata Float,5000,0.001376
+Bubble Sort,Plata Float,15000,12.059718
+Insertion Sort,Plata Float,15000,5.085853
+Selection Sort,Plata Float,15000,5.065234
+Merge Sort,Plata Float,15000,0.049442
+Quick Sort,Plata Float,15000,0.005749
+Merge Sort,Plata Float,50000,0.179911
+Quick Sort,Plata Float,50000,0.015551
+Merge Sort,Plata Float,100000,0.388102
+Quick Sort,Plata Float,100000,0.043459
+Merge Sort,Plata Float,1000000,5.095378
+Quick Sort,Plata Float,1000000,0.507013
+Merge Sort,Plata Float,10000000,62.720863
+Quick Sort,Plata Float,10000000,5.955170
