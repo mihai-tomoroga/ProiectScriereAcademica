@@ -4,7 +4,6 @@ import csv
 
 
 def bubble_sort(a):
-    a = a.copy()
     n = len(a)
     for i in range(n):
         swapped = False
@@ -18,7 +17,7 @@ def bubble_sort(a):
 
 
 def insertion_sort(a):
-    a = a.copy()
+     
     for i in range(1, len(a)):
         k = a[i]
         j = i-1
@@ -30,7 +29,7 @@ def insertion_sort(a):
 
 
 def selection_sort(a):
-    a = a.copy()
+     
     n = len(a)
     for i in range(n):
         min_i = i
@@ -42,7 +41,7 @@ def selection_sort(a):
 
 
 def merge_sort(a):
-    a = a.copy()
+     
     if len(a) <= 1:
         return a
     mij = len(a) // 2
@@ -67,7 +66,7 @@ def merge(st, dr):
 def quick_sort(a):
     if len(a) <= 1:
         return a
-    pivot = a[len(a) // 2]
+    pivot = random.choice(a)
     st = [x for x in a if x < pivot]
     mij = [x for x in a if x == pivot]
     dr = [x for x in a if x > pivot]
@@ -96,7 +95,7 @@ def counting_sort_radix(a, exp):
 
 
 def radix_sort(a):
-    a = a.copy()
+     
     if len(a) == 0:
         return a
 
@@ -150,12 +149,23 @@ def lista_plata_float(n):
     return [float(random.randint(0, 5)) for _ in range(n)]
     
 
-def measure_time(sort_function, a):
-    start = time.time()
+def measure_time(sort_function, a, max_time=30):
+    start = time.perf_counter()
     sort_function(a)
-    end = time.time()
-    return end-start
+    end = time.perf_counter()
 
+    durata = end - start
+
+    return durata
+
+def get_repetari(size):
+    if size <= 100:
+        return 5000
+    elif size <= 10000:
+        return 25
+    else:
+        return 3
+    
 def rez(csv_f="rezultate.csv"):
     sizes = [10, 50, 100, 1000, 5000, 15000, 50000, 100000, 1000000,10000000 ]
 
@@ -180,6 +190,7 @@ def rez(csv_f="rezultate.csv"):
         "Quick Sort": quick_sort,
         "Radix Sort": radix_sort
     }
+    skip_alg = {}
 
     with open(csv_f, mode="w", newline="") as file:
         writer = csv.writer(file)
@@ -188,26 +199,43 @@ def rez(csv_f="rezultate.csv"):
         for date_n, date_f in date_de_test.items():
             print(f"\n===== Tip lista: {date_n} =====")
 
+            for alg_n in algoritmi:
+                skip_alg[(alg_n, date_n)] = False
+
             for n in sizes:
                 print(f"\nDimensiune: {n}")
+                a = date_f(n)
 
                 for alg_n, alg_f in algoritmi.items():
 
-                    if n > 15000 and alg_n in ["Bubble Sort", "Insertion Sort", "Selection Sort"]:
+                    if skip_alg[(alg_n, date_n)]:
                         continue
+ 
                     if "Float" in date_n and alg_n == "Radix Sort":
                         continue
 
-                    rep=100 if n<=100 else 1
-                    t_total=0
-                    for _ in range(rep):
-                        a=date_f(n)
-                        t_total += measure_time(alg_f,a)
-        
-                    t=t_total/rep
+                    rep = get_repetari(n)
+                    t_total = 0
+                    timeout_hit = False
 
-                    print(f"{alg_n}: {t:.6f} sec")
-                    writer.writerow([alg_n, date_n, n, f"{t:.6f}"])
+                    for _ in range(rep):
+                        t = measure_time(alg_f, a.copy())
+
+                        if t > 30:
+                            timeout_hit = True
+                            print(f"{alg_n}: {t:.6f} sec")
+                            writer.writerow([alg_n, date_n, n, f"{t:.6f}"])
+                            skip_alg[(alg_n, date_n)] = True
+                            break
+
+                        t_total += t
+
+                    if timeout_hit:
+                        continue
+
+                    t_avg = t_total / rep
+                    print(f"{alg_n}: {t_avg:.6f} sec")
+                    writer.writerow([alg_n, date_n, n, f"{t_avg:.6f}"])
 
 
 
